@@ -1,0 +1,115 @@
+/* Basic page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Container for the dashboard */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Heading styling */
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Search and Filter section */
+.search-filter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#searchBar {
+  padding: 10px;
+  font-size: 16px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#languageFilter {
+  padding: 10px;
+  font-size: 16px;
+  width: 35%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Exercises list */
+.exercise-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Individual exercise card */
+.exercise-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: left;
+}
+
+.exercise-card h2 {
+  font-size: 20px;
+  color: #007bff;
+}
+
+.exercise-card p {
+  margin: 5px 0;
+}
+
+.exercise-card button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.exercise-card button:hover {
+  background-color: #218838;
+}
+/* Thẻ bài tập */
+.exercise-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hiệu ứng khi di chuột vào thẻ bài tập */
+.exercise-card:hover {
+  transform: translateY(-10px); /* Di chuyển thẻ lên một chút */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Tăng độ đổ bóng */
+} /* Thêm vào styles.css hoặc dashboard.css */
+.back-button {
+  position: absolute; /* Định vị tuyệt đối */
+  top: 20px; /* Cách từ đỉnh 20px */
+  left: 20px; /* Cách từ bên trái 20px */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000; /* Đảm bảo nó nằm trên các phần khác */
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}

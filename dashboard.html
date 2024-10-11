@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <h1>Dashboard</h1>
+
+      <!-- Search and Filter -->
+      <div class="search-filter">
+        <input type="text" id="searchBar" placeholder="Search exercises..." />
+        <select id="languageFilter">
+          <option value="all">All Languages</option>
+          <option value="C">C</option>
+          <option value="Python">Python</option>
+          <option value="Java">Java</option>
+        </select>
+      </div>
+
+      <!-- Exercises Section -->
+      <div class="exercise-list">
+        <!-- Exercise 1 -->
+        <div class="exercise-card">
+          <h2>Exercise Title 1</h2>
+          <p>Short description of Exercise 1.</p>
+          <p><strong>Difficulty Level:</strong> Easy</p>
+          <p><strong>Time Limit:</strong> 60 minutes</p>
+          <a href="./exercise.html" class="choose-exercise" data-index="0"
+            >Choose Exercise</a
+          >
+        </div>
+
+        <!-- Exercise 2 -->
+        <div class="exercise-card">
+          <h2>Exercise Title 2</h2>
+          <p>Short description of Exercise 2.</p>
+          <p><strong>Difficulty Level:</strong> Medium</p>
+          <p><strong>Time Limit:</strong> 120 minutes</p>
+          <a href="./exercise.html" class="choose-exercise" data-index="1"
+            >Choose Exercise</a
+          >
+        </div>
+
+        <!-- Exercise 3 -->
+        <div class="exercise-card">
+          <h2>Exercise Title 3</h2>
+          <p>Short description of Exercise 3.</p>
+          <p><strong>Difficulty Level:</strong> Hard</p>
+          <p><strong>Time Limit:</strong> 180 minutes</p>
+          <a href="./exercise.html" class="choose-exercise" data-index="2"
+            >Choose Exercise</a
+          >
+        </div>
+      </div>
+
+      <!-- Back to Login Button -->
+      <a href="login.html" id="backToLogin" class="back-button"
+        >Back to Login</a
+      >
+    </div>
+
+    <script src="dashboard.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Exercise Details</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="dashboard.html" class="back-button">Quay lại Dashboard</a>
+      <h1>Exercise Details</h1>
+    </div>
+
+    <div class="exercise-container">
+      <!-- Phần hiển thị thông tin bài tập -->
+      <div class="exercise-details">
+        <h2 id="exercise-title">Exercise Title</h2>
+        <p id="exercise-description">
+          Description of the exercise will go here.
+        </p>
+      </div>
+
+      <!-- Khung viết mã -->
+      <div class="code-editor">
+        <h3>Code:</h3>
+        <textarea
+          id="code"
+          rows="10"
+          placeholder="Viết code ở đây..."
+        ></textarea>
+        <div class="buttons">
+          <a href="#" id="run-btn">Run</a>
+          <a href="#" id="submit-btn">Submit</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="./exercise.css"></script>
+  </body>
+</html>
